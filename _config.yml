@@ -35,7 +35,7 @@ nav:
 # GitHub Pages is static and cannot receive form posts the way Netlify did.
 # Create a free form at https://formspree.io and paste the endpoint here.
 # While this is empty, the contact page shows an email address instead.
-formspree_endpoint: ""
+formspree_endpoint: "https://formspree.io/f/xlgqapvb"
 email: "you@example.com"
 
 # ---------------------------------------------------------------------------
