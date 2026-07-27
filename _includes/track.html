@@ -1,0 +1,27 @@
+{% comment %}
+  One track. `include.track` is a row from _data/tracks.yml.
+  `include.card` = true wraps it in a bordered card (used on the Music page).
+{% endcomment %}
+{% if include.card %}
+<article class="card">
+  <div class="card__header">
+    <div class="track__head">
+      <h2 class="card__title track__title">{{ include.track.title }}</h2>
+      <span class="badge badge--secondary">{{ include.track.genre }}</span>
+    </div>
+  </div>
+  <div class="card__content">
+    <p class="track__desc">{{ include.track.blurb }}</p>
+    {% include soundcloud.html track=include.track %}
+  </div>
+</article>
+{% else %}
+<article>
+  <div class="track__head">
+    <h2 class="track__title">{{ include.track.title }}</h2>
+    <span class="badge badge--outline">{{ include.track.genre }}</span>
+  </div>
+  <p class="track__desc">{{ include.track.blurb }}</p>
+  {% include soundcloud.html track=include.track %}
+</article>
+{% endif %}

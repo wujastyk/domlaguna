@@ -1,0 +1,50 @@
+# ---------------------------------------------------------------------------
+# Site settings
+# ---------------------------------------------------------------------------
+title: "Dom Laguna"
+tagline: "Bass Guitar"
+description: >-
+  Dom Laguna is a bass guitarist playing jazz, rock, and blues. Listen to
+  tracks and get in touch about upcoming shows and sessions.
+
+# ---------------------------------------------------------------------------
+# URLs  —  THIS IS THE SETTING THAT BREAKS THE STYLING IF IT IS WRONG
+# ---------------------------------------------------------------------------
+# Site served from https://wujastyk.github.io/domlaguna/  -> baseurl: "/domlaguna"
+# Site served from https://wujastyk.github.io/            -> baseurl: ""
+# Custom domain, e.g. https://domlaguna.ca/               -> baseurl: ""
+baseurl: "/domlaguna"
+url: "https://wujastyk.github.io"
+
+# ---------------------------------------------------------------------------
+# Navigation
+# ---------------------------------------------------------------------------
+nav:
+  - title: Home
+    url: /
+  - title: Music
+    url: /music/
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+
+# ---------------------------------------------------------------------------
+# Contact form
+# ---------------------------------------------------------------------------
+# GitHub Pages is static and cannot receive form posts the way Netlify did.
+# Create a free form at https://formspree.io and paste the endpoint here.
+# While this is empty, the contact page shows an email address instead.
+formspree_endpoint: ""
+email: "you@example.com"
+
+# ---------------------------------------------------------------------------
+# Build
+# ---------------------------------------------------------------------------
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

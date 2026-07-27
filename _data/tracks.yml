@@ -1,0 +1,47 @@
+# ---------------------------------------------------------------------------
+# Every track on the site. The order here is the order on the Music page.
+#
+#   title:           track heading
+#   genre:           Jazz | Rock | Blues
+#   blurb:           one-line description
+#   featured:        true also shows it on the home page
+#   soundcloud_url:  the ordinary page URL of the track on SoundCloud —
+#                    just copy it from your browser's address bar.
+#                    The player embed is built for you.
+# ---------------------------------------------------------------------------
+
+- title: "Blow at High Dough"
+  genre: "Rock"
+  featured: true
+  blurb: "A cover of the Tragically Hip's driving rock anthem, with a fuzzed-out bass tone up front in the mix."
+  soundcloud_url: "https://soundcloud.com/domlaguna/blow-at-high-dough-tragically-hip-second-shot-cover?in_system_playlist=artist-stations%3A10784911%3A1687339374"
+
+- title: "Blue Note Shuffle"
+  genre: "Jazz"
+  featured: true
+  blurb: "A walking bass line over a mid-tempo swing, recorded live with the trio."
+  soundcloud_url: "https://soundcloud.com/your-username/blue-note-shuffle"
+
+- title: "Delta Crossing"
+  genre: "Blues"
+  featured: false
+  blurb: "A slow 12-bar blues built around a fat, syncopated bass hook."
+  soundcloud_url: "https://soundcloud.com/your-username/delta-crossing"
+
+- title: "Help the Poor"
+  genre: "Blues"
+  featured: false
+  blurb: "A soulful blues rendition, with a laid-back bass groove sitting deep in the pocket."
+  soundcloud_url: "https://soundcloud.com/domlaguna/help-the-poorwav?in=domlaguna%2Fsets%2Fsecond-shot-2020-08-studio"
+
+- title: "Joshua"
+  genre: "Jazz"
+  featured: false
+  blurb: "An uptempo bebop chart with a driving walking bass line under the head and solos."
+  soundcloud_url: "https://soundcloud.com/domlaguna/joshua-sample?in=domlaguna%2Fsets%2Fbop-vienna"
+
+- title: "Overdrive Avenue"
+  genre: "Rock"
+  featured: false
+  blurb: "Driving rock groove with a fuzzed-out bass tone up front in the mix."
+  soundcloud_url: "https://soundcloud.com/your-username/overdrive-avenue"

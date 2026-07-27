@@ -1,0 +1,37 @@
+# ---------------------------------------------------------------------------
+# The "Musical Training" entries on the About page.
+# `detail` accepts Markdown, so [link text](https://example.com) works.
+# ---------------------------------------------------------------------------
+
+- school: "Community College Music Program"
+  summary: "Coursework in music theory, ensemble performance, and recording basics."
+  detail: >-
+    Completed coursework in music theory and performed in the school's jazz
+    ensemble, plus an introductory recording and production course that shaped
+    how tracks are captured today.
+
+- school: "Private Study & Woodshedding"
+  summary: "Years of self-directed and mentored practice across jazz walking bass, blues shuffles, and rock groove playing."
+  detail: >-
+    Studied jazz harmony and walking bass construction with several wonderful
+    private teachers, including Steve Lawson, Tiago Coimbra, Ed Friedland, Todd
+    Johnson, and Sean Croal. Transcribed blues and rock bass lines by ear, and
+    logged many hours playing along to records to lock in time and feel. Mostly,
+    I've grown through playing with friends in bands and combos.
+
+- school: "Recent courses"
+  summary: "Workshops, summer schools, and ensemble programs in jazz performance, theory, and history."
+  detail: >-
+    In 2002 I attended a three-week music intensive in Santiago de Cuba. For
+    several years I was a regular attendee at the wonderful
+    [Cambridge Jazz Co-op](https://cambridgejazzcoop.org.uk/wp/) (UK). I have had
+    the privilege of attending jazz workshops and summer schools with Jamie
+    Aebersold (London), with Stefan Redtenbacher at the
+    [Academy of Contemporary Music](https://www.acm.ac.uk/) (Guildford), the jazz
+    summer school at MacEwan University (Edmonton, Canada), and the
+    [JazzWire Summit](https://www.jazzwire.net/) (Edmonton). All were hugely
+    enjoyable and musically transformative in different ways. In recent years
+    I've been learning jazz history, music theory, and ensemble performance
+    through the
+    [Jazz Combo program at the Winspear Theatre](https://www.winspearcentre.com/learning/adult-learning-programs/conservatory-jazz-combos/),
+    Edmonton, under the leadership of Dan Davis.

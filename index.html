@@ -1,0 +1,34 @@
+---
+layout: default
+permalink: /
+---
+
+<section class="container hero">
+  <p class="hero__eyebrow">Bass Guitar</p>
+  <h1 class="hero__title">Dom Laguna</h1>
+  <p class="hero__lede">
+    I play bass guitar across jazz, rock, and blues — from walking lines behind a
+    jazz combo to rock grooves and slow 12-bar blues shuffles. Have a listen below,
+    or head over to the music page for the full set of tracks.
+  </p>
+  <ul class="hero__badges">
+    <li class="badge badge--secondary">Jazz</li>
+    <li class="badge badge--secondary">Rock</li>
+    <li class="badge badge--secondary">Blues</li>
+  </ul>
+  <a class="hero__cta" href="{{ '/music/' | relative_url }}">
+    Hear more tracks
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+         stroke-linejoin="round" aria-hidden="true">
+      <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+    </svg>
+  </a>
+</section>
+
+<section class="container" style="padding-bottom: 4rem;">
+  <h2 class="visually-hidden" hidden>Featured tracks</h2>
+  <div class="stack">
+    {% for track in site.data.tracks %}{% if track.featured %}{% include track.html track=track %}{% endif %}{% endfor %}
+  </div>
+</section>

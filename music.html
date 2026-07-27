@@ -1,0 +1,16 @@
+---
+layout: default
+permalink: /music/
+---
+
+<div class="container page">
+  <h1 class="page__title">Music</h1>
+  <p class="page__intro">
+    A selection of tracks spanning jazz, rock, and blues. Each embed plays
+    straight from SoundCloud.
+  </p>
+
+  <div class="stack">
+    {% for track in site.data.tracks %}{% include track.html track=track card=true %}{% endfor %}
+  </div>
+</div>

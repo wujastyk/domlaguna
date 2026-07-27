@@ -1,0 +1,68 @@
+---
+layout: default
+permalink: /about/
+---
+
+<div class="container about">
+  <div class="stack-l">
+
+    <div class="about__intro">
+      <h1>About</h1>
+      <p>Bio, bands, and musical training</p>
+      <div class="separator"></div>
+    </div>
+
+    <!-- Bio -->
+    <div class="card">
+      <div class="card__header"><h2 class="card__title" style="font-size:1.5rem;">Bio</h2></div>
+      <div class="card__content">
+        <div class="bio">
+          <p>
+            I'm a bass guitarist based on the local club circuit in Edmonton, Alberta,
+            Canada, playing jazz, rock, and blues. Whether it's walking a swing line
+            behind a jazz combo, locking in a fuzzed-out rock groove, or laying back in
+            a slow blues shuffle, I care most about serving the song and the pocket.
+            I'm always up for a session, a sit-in, or a new project — reach out on the
+            contact page.
+          </p>
+          <img src="{{ '/assets/img/headshot-on-white.jpg' | relative_url }}"
+               alt="Portrait" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <!-- Bands & Projects -->
+    <section>
+      <h2 class="section__title">Bands &amp; Projects</h2>
+      <div class="card">
+        <div class="card__content">
+          <p style="line-height:1.625;">
+            Over the years, as my day job took me around the world, I've supported
+            bands like the Groove Project (Cambridge, UK), BOP (Vienna, Austria), as
+            well as Second Shot and Cut Loose! (Edmonton, Canada). I'm currently taking
+            time off to develop my jazz soloing skills in the woodshed.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Musical Training -->
+    <section>
+      <h2 class="section__title">Musical Training</h2>
+      <div class="stack">
+        {% for item in site.data.training %}
+        <div class="card">
+          <div class="card__header">
+            <h3 class="card__title" style="font-size:1.25rem;">{{ item.school }}</h3>
+          </div>
+          <div class="card__content">
+            <p class="entry__summary">{{ item.summary }}</p>
+            <div class="entry__detail">{{ item.detail | markdownify }}</div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+  </div>
+</div>

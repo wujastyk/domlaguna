@@ -1,0 +1,51 @@
+---
+layout: default
+permalink: /contact/
+---
+
+<div class="container-sm page">
+  <h1 class="page__title">Contact</h1>
+  <p class="page__intro">
+    Booking a show, looking for a session player, or just want to talk gear?
+    Drop me a message.
+  </p>
+
+  {% if site.formspree_endpoint and site.formspree_endpoint != "" %}
+  <form class="form" action="{{ site.formspree_endpoint }}" method="POST">
+    <div class="field">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required>
+    </div>
+
+    <div class="field">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email" required>
+    </div>
+
+    <div class="field">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" placeholder="Your message..." required></textarea>
+    </div>
+
+    <!-- Spam trap: real visitors never see this. -->
+    <p hidden><label>Don't fill this out: <input name="_gotcha" tabindex="-1" autocomplete="off"></label></p>
+
+    <button class="button" type="submit">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" aria-hidden="true">
+        <path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/>
+      </svg>
+      Send Message
+    </button>
+  </form>
+  {% else %}
+  <p>The quickest way to reach me is by email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+  <p class="form-note">
+    <strong>Site owner:</strong> GitHub Pages can't process form submissions the way
+    Netlify did. Create a free form at <a href="https://formspree.io">formspree.io</a>
+    and paste the endpoint into <code>formspree_endpoint</code> in
+    <code>_config.yml</code> to switch the form on.
+  </p>
+  {% endif %}
+</div>

@@ -1,0 +1,16 @@
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <!-- lucide "music-2" icon, as on the original site -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" aria-hidden="true">
+        <circle cx="8" cy="18" r="4"/><path d="M12 18V2l7 4"/>
+      </svg>
+      <span>Dom Laguna</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      {% for item in site.nav %}<a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>{% endfor %}
+    </nav>
+  </div>
+</header>
