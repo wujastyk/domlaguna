@@ -10,12 +10,6 @@
 #                    The player embed is built for you.
 # ---------------------------------------------------------------------------
 
-- title: "Blow at High Dough"
-  genre: "Rock"
-  featured: true
-  blurb: "A cover of the Tragically Hip's driving rock anthem, with a fuzzed-out bass tone up front in the mix."
-  soundcloud_url: "https://soundcloud.com/domlaguna/blow-at-high-dough-tragically-hip-second-shot-cover?in_system_playlist=artist-stations%3A10784911%3A1687339374"
-
 - title: "Help the Poor"
   genre: "Blues"
   featured: false
@@ -27,3 +21,10 @@
   featured: false
   blurb: "An uptempo bebop chart with a driving walking bass line under the head and solos."
   soundcloud_url: "https://soundcloud.com/domlaguna/joshua-sample?in=domlaguna%2Fsets%2Fbop-vienna"
+
+- title: "Blow at High Dough"
+  genre: "Rock"
+  featured: true
+  blurb: "A cover of the Tragically Hip's driving rock anthem, with a fuzzed-out bass tone up front in the mix."
+  soundcloud_url: "https://soundcloud.com/domlaguna/blow-at-high-dough-tragically-hip-second-shot-cover?in_system_playlist=artist-stations%3A10784911%3A1687339374"
+

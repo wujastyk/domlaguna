@@ -6,8 +6,7 @@ permalink: /contact/
 <div class="container-sm page">
   <h1 class="page__title">Contact</h1>
   <p class="page__intro">
-    Booking a show, looking for a session player, or just want to talk gear?
-    Drop me a message.
+    Looking for a session player, bass support for a small jazz combo or soloist, or just want to talk music? Drop me a message.
   </p>
 
   {% if site.formspree_endpoint and site.formspree_endpoint != "" %}
@@ -40,14 +39,14 @@ permalink: /contact/
     </button>
   </form>
   {% else %}
-  <!--
+  
   <p>The quickest way to reach me is by email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
-  -->
+ 
   <p class="form-note">
     <strong>Site owner:</strong> GitHub Pages can't process form submissions the way
     Netlify did. Create a free form at <a href="https://formspree.io">formspree.io</a>
     and paste the endpoint into <code>formspree_endpoint</code> in
     <code>_config.yml</code> to switch the form on.
-  </p>
+  </p> 
   {% endif %}
 </div>
