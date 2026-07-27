@@ -16,18 +16,6 @@
   blurb: "A cover of the Tragically Hip's driving rock anthem, with a fuzzed-out bass tone up front in the mix."
   soundcloud_url: "https://soundcloud.com/domlaguna/blow-at-high-dough-tragically-hip-second-shot-cover?in_system_playlist=artist-stations%3A10784911%3A1687339374"
 
-- title: "Blue Note Shuffle"
-  genre: "Jazz"
-  featured: true
-  blurb: "A walking bass line over a mid-tempo swing, recorded live with the trio."
-  soundcloud_url: "https://soundcloud.com/your-username/blue-note-shuffle"
-
-- title: "Delta Crossing"
-  genre: "Blues"
-  featured: false
-  blurb: "A slow 12-bar blues built around a fat, syncopated bass hook."
-  soundcloud_url: "https://soundcloud.com/your-username/delta-crossing"
-
 - title: "Help the Poor"
   genre: "Blues"
   featured: false
@@ -39,9 +27,3 @@
   featured: false
   blurb: "An uptempo bebop chart with a driving walking bass line under the head and solos."
   soundcloud_url: "https://soundcloud.com/domlaguna/joshua-sample?in=domlaguna%2Fsets%2Fbop-vienna"
-
-- title: "Overdrive Avenue"
-  genre: "Rock"
-  featured: false
-  blurb: "Driving rock groove with a fuzzed-out bass tone up front in the mix."
-  soundcloud_url: "https://soundcloud.com/your-username/overdrive-avenue"

@@ -3,13 +3,6 @@
 # `detail` accepts Markdown, so [link text](https://example.com) works.
 # ---------------------------------------------------------------------------
 
-- school: "Community College Music Program"
-  summary: "Coursework in music theory, ensemble performance, and recording basics."
-  detail: >-
-    Completed coursework in music theory and performed in the school's jazz
-    ensemble, plus an introductory recording and production course that shaped
-    how tracks are captured today.
-
 - school: "Private Study & Woodshedding"
   summary: "Years of self-directed and mentored practice across jazz walking bass, blues shuffles, and rock groove playing."
   detail: >-
