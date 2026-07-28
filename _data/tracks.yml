@@ -10,21 +10,26 @@
 #                    The player embed is built for you.
 # ---------------------------------------------------------------------------
 
-- title: "Help the Poor"
+- title: "Help the Poor / arr. Robben Ford"
   genre: "Blues"
   featured: false
-  blurb: "A soulful blues rendition, with a laid-back bass groove sitting deep in the pocket."
+  blurb: "A soulful blues classic, with a bass groove sitting deep in the pocket."
   soundcloud_url: "https://soundcloud.com/domlaguna/help-the-poorwav?in=domlaguna%2Fsets%2Fsecond-shot-2020-08-studio"
 
-- title: "Joshua"
+- title: "Joshua / Miles Davis"
   genre: "Jazz"
   featured: false
   blurb: "An uptempo bebop chart with a driving walking bass line under the head and solos."
   soundcloud_url: "https://soundcloud.com/domlaguna/joshua-sample?in=domlaguna%2Fsets%2Fbop-vienna"
 
-- title: "Blow at High Dough"
+- title: "Blow at High Dough / Tragically Hip"
   genre: "Rock"
   featured: true
-  blurb: "A cover of the Tragically Hip's driving rock anthem, with a fuzzed-out bass tone up front in the mix."
+  blurb: "A cover of the Tragically Hip's driving rock anthem, with a driving bass tone up front in the mix."
   soundcloud_url: "https://soundcloud.com/domlaguna/blow-at-high-dough-tragically-hip-second-shot-cover?in_system_playlist=artist-stations%3A10784911%3A1687339374"
 
+- title: "Something's Wrong / Billy D and the Hoodoos"
+  genre: "Slow Blues"
+  featured: true
+  blurb: "A cover of Billy D's disquieting blues classic."
+  soundcloud_url: "https://soundcloud.com/domlaguna/sets/second-shot-2020-08-studio?si=ace6383dafc04208b0ff23c5ce1cb9e4&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
