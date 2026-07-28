@@ -13,8 +13,8 @@ description: >-
 # Site served from https://wujastyk.github.io/domlaguna/  -> baseurl: "/domlaguna"
 # Site served from https://wujastyk.github.io/            -> baseurl: ""
 # Custom domain, e.g. https://domlaguna.ca/               -> baseurl: ""
-baseurl: "/domlaguna"
-url: "https://wujastyk.github.io"
+baseurl: ""
+url: "https://domlaguna.com"
 
 # ---------------------------------------------------------------------------
 # Navigation
