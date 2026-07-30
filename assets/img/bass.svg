@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 480" width="1400" height="480">
+  <g fill="none" stroke="#111827" stroke-width="6"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- body -->
+    <path d="M 490 130
+             C 440 138, 402 170, 374 206
+             C 360 226, 356 250, 368 264
+             C 396 298, 428 330, 452 352
+             C 468 364, 466 370, 448 374
+             C 398 386, 340 400, 288 398
+             C 210 395, 140 350, 108 285
+             C 88 245, 88 213, 106 178
+             C 140 108, 210 68, 286 66
+             C 352 64, 424 90, 490 130 Z"/>
+
+    <!-- neck -->
+    <path d="M 352 220 L 1148 228 L 1148 258 L 352 260"/>
+
+    <!-- nut -->
+    <path d="M 1148 224 L 1148 262"/>
+
+    <!-- headstock -->
+    <path d="M 1148 224
+             L 1306 206
+             C 1328 203, 1340 212, 1336 226
+             L 1332 254
+             C 1329 268, 1318 274, 1304 271
+             L 1148 262 Z"/>
+
+    <!-- machine heads -->
+    <circle cx="1190" cy="184" r="10"/>
+    <circle cx="1232" cy="179" r="10"/>
+    <circle cx="1274" cy="174" r="10"/>
+    <circle cx="1316" cy="169" r="10"/>
+    <path d="M 1190 194 L 1190 212 M 1232 189 L 1232 207 M 1274 184 L 1274 203 M 1316 179 L 1316 205"/>
+
+    <!-- frets -->
+    <path d="M 1080 229 L 1080 257 M 1016 230 L 1016 256 M 956 230 L 956 256
+             M 900 231 L 900 256 M 847 231 L 847 255 M 797 232 L 797 255
+             M 750 232 L 750 254 M 706 233 L 706 254 M 664 233 L 664 254
+             M 625 233 L 625 253 M 588 234 L 588 253 M 553 234 L 553 253
+             M 520 234 L 520 252 M 489 235 L 489 252"/>
+
+    <!-- position markers -->
+    <circle cx="1048" cy="243" r="4" fill="#111827" stroke="none"/>
+    <circle cx="928"  cy="243" r="4" fill="#111827" stroke="none"/>
+    <circle cx="823"  cy="243" r="4" fill="#111827" stroke="none"/>
+    <circle cx="728"  cy="243" r="4" fill="#111827" stroke="none"/>
+    <circle cx="606"  cy="237" r="4" fill="#111827" stroke="none"/>
+    <circle cx="606"  cy="250" r="4" fill="#111827" stroke="none"/>
+
+    <!-- pickups -->
+    <rect x="296" y="196" width="26" height="92" rx="6"/>
+    <rect x="226" y="200" width="26" height="84" rx="6"/>
+
+    <!-- bridge -->
+    <rect x="150" y="206" width="46" height="72" rx="8"/>
+
+    <!-- control knobs -->
+    <circle cx="196" cy="330" r="13"/>
+    <circle cx="248" cy="352" r="13"/>
+
+    <!-- strings, bridge to nut, then fanning to the machine heads -->
+    <g stroke-width="3.5">
+      <path d="M 168 214 L 1148 230 L 1190 212"/>
+      <path d="M 168 233 L 1148 238 L 1232 207"/>
+      <path d="M 168 252 L 1148 246 L 1274 203"/>
+      <path d="M 168 271 L 1148 254 L 1316 205"/>
+    </g>
+  </g>
+</svg>
