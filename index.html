@@ -1,9 +1,41 @@
----
-layout: default
-permalink: /
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dom Laguna — Bass Guitar</title>
+  <meta name="description" content="Dom Laguna is a bass guitarist playing jazz, rock, and blues. Listen to tracks and get in touch about upcoming shows and sessions.">
+  <meta property="og:title" content="Dom Laguna — Bass Guitar">
+  <meta property="og:description" content="Dom Laguna is a bass guitarist playing jazz, rock, and blues. Listen to tracks and get in touch about upcoming shows and sessions.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.ico">
 
-<section class="container hero">
+  <!-- Named site.css, not style.css: GitHub Pages' default theme
+       (jekyll-theme-primer) also publishes assets/css/style.css and would
+       overwrite ours. -->
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="index.html">
+      <!-- lucide "music-2" icon, as on the original site -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" aria-hidden="true">
+        <circle cx="8" cy="18" r="4"/><path d="M12 18V2l7 4"/>
+      </svg>
+      <span>Dom Laguna</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="index.html" aria-current="page">Home</a><a href="music.html">Music</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main"><section class="container hero">
   <p class="hero__eyebrow">Bass Guitar</p>
   <h1 class="hero__title">Dom Laguna</h1>
   <p class="hero__lede">
@@ -16,7 +48,7 @@ permalink: /
     <li class="badge badge--secondary">Rock</li>
     <li class="badge badge--secondary">Blues</li>
   </ul>
-  <a class="hero__cta" href="{{ '/music/' | relative_url }}">
+  <a class="hero__cta" href="music.html">
     Hear more tracks
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -29,6 +61,24 @@ permalink: /
 <section class="container" style="padding-bottom: 4rem;">
   <h2 class="visually-hidden" hidden>Featured tracks</h2>
   <div class="stack">
-    {% for track in site.data.tracks %}{% if track.featured %}{% include track.html track=track %}{% endif %}{% endfor %}
+    <article>
+  <div class="track__head">
+    <h2 class="track__title">Blow at High Dough</h2>
+    <span class="badge badge--outline">Rock</span>
+  </div>
+  <p class="track__desc">A cover of the Tragically Hip's driving rock anthem, with a fuzzed-out bass tone up front in the mix.</p>
+  <iframe class="soundcloud" title="Blow at High Dough" width="100%" height="120" loading="lazy" allow="autoplay" frameborder="no" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdomlaguna%2Fblow-at-high-dough-tragically-hip-second-shot-cover%3Fin_system_playlist%3Dartist-stations%253A10784911%253A1687339374&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&visual=false"></iframe>
+</article>
+<article>
+  <div class="track__head">
+    <h2 class="track__title">Blue Note Shuffle</h2>
+    <span class="badge badge--outline">Jazz</span>
+  </div>
+  <p class="track__desc">A walking bass line over a mid-tempo swing, recorded live with the trio.</p>
+  <iframe class="soundcloud" title="Blue Note Shuffle" width="100%" height="120" loading="lazy" allow="autoplay" frameborder="no" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fyour-username%2Fblue-note-shuffle&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&visual=false"></iframe>
+</article>
   </div>
 </section>
+</main>
+</body>
+</html>

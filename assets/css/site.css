@@ -329,14 +329,20 @@ a { color: inherit; }
   *, *::before, *::after { transition-duration: 0.01ms !important; }
 }
 
-/* --- Faint bass-guitar watermark ------------------------------------------
-   Drawn behind every page. Two dials:
-     --watermark-opacity   how faint it is (0 hides it entirely)
-     background-position   where it sits
-   The image path is relative to THIS file, so it is unaffected by baseurl.
+/* --- Faint photographic background ----------------------------------------
+   A photograph sits behind every page. Two dials:
+     --watermark-opacity   how strong it is (0 hides it entirely)
+     background-position   which part of the photo you see
+
+   On opacity: above about 0.12 the small grey eyebrow text on the home page
+   starts to lose contrast against the darkest areas of the photo. Headings and
+   body text stay legible well past 0.20. Text inside the track cards is never
+   affected, because the cards are opaque white.
+
+   The image path is relative to THIS file, so it does not depend on baseurl.
    -------------------------------------------------------------------------- */
 
-:root { --watermark-opacity: 0.07; }
+:root { --watermark-opacity: 0.10; }
 
 body::before {
   content: "";
@@ -344,22 +350,25 @@ body::before {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background-image: url("../img/bass.svg");
+  background-image: url("../img/bass-photo.jpg");
   background-repeat: no-repeat;
-  background-position: right -8rem bottom 3rem;
-  background-size: 1150px auto;
+  background-position: center;
+  background-size: cover;
   opacity: var(--watermark-opacity);
+
+  /* Slight desaturation stops the warm wood tones tinting the whole page.
+     Remove this line for full colour, or raise towards 1 for near-grey. */
+  filter: saturate(0.75);
 }
 
-/* Smaller screens: scale it down and tuck it lower so it stays out of the way. */
-@media (max-width: 60rem) {
-  body::before {
-    background-position: right -10rem bottom 1rem;
-    background-size: 780px auto;
-  }
-}
-
-/* Anyone who has asked for reduced motion or high contrast gets a clean page. */
+/* Visitors who have asked their system for higher contrast get a clean page. */
 @media (prefers-contrast: more) {
   body::before { display: none; }
 }
+
+/* To go back to the line drawing instead, change background-image to
+   url("../img/bass.svg") and add:
+       background-repeat: no-repeat;
+       background-position: right -8rem bottom 3rem;
+       background-size: 1150px auto;
+   The drawing is still in assets/img/. */
